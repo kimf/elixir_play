@@ -32,4 +32,4 @@ config :elixir_api, ElixirApi.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "kifr",
   password: "",
-  database: "elixir_api_dev"
+  database: "simplegolftour_development"

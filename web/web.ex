@@ -12,17 +12,17 @@ defmodule ElixirApi.Web do
   mostly focused on imports, uses and aliases.
   """
 
-  def view do
-    quote do
-      use Phoenix.View, root: "web/templates"
+  # def view do
+  #   quote do
+  #     use Phoenix.View, root: "web/templates"
 
-      # Import URL helpers from the router
-      import ElixirApi.Router.Helpers
+  #     # Import URL helpers from the router
+  #     import ElixirApi.Router.Helpers
 
-      # Import all HTML functions (forms, tags, etc)
-      use Phoenix.HTML
-    end
-  end
+  #     # Import all HTML functions (forms, tags, etc)
+  #     use Phoenix.HTML
+  #   end
+  # end
 
   def controller do
     quote do
